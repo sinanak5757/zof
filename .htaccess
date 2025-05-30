@@ -1,0 +1,8 @@
+# UTF-8 karakter kodlaması
+AddDefaultCharset UTF-8
+<IfModule mod_php7.c>
+    php_value default_charset "UTF-8"
+</IfModule>
+<IfModule mod_php8.c>
+    php_value default_charset "UTF-8"
+</IfModule>
